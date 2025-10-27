@@ -22,7 +22,7 @@
 
 ## Prior to 27 Oct 2025
 - Downloaded EspY3 50% identity UniRef clusters (`EspY3_50.fasta`)
-- Aligned sequences with MAFFT (`EspY3_50.MAFFT.fasta')
+- Aligned sequences with MAFFT (`EspY3_50.MAFFT.fasta`)
 - Ran trimAL on allignment to remove empty columns or incomplete sequences (`EspY3_50.MAFFT.trimal_18del.fasta`)
   - Named `~.trimal_18del` because I made two files with the same name. One was the trimal output with bad parameters.
   - trimAL parameters: 0.7 0.7
