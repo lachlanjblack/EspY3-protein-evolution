@@ -3,7 +3,7 @@
 ## TODO
 
 ### Housekeeping
-[ ] Repeat previous steps locally
+- [ ] Repeat previous steps locally
 - [ ] Make environment/setup file (and update when needed)
 - [ ] Upload and annotate all files produced so far
 
