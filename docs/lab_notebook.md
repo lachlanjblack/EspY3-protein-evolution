@@ -27,4 +27,10 @@
   - Named `~.trimal_18del` because I made two files with the same name. One was the trimal output with bad parameters.
   - trimAL parameters: 0.7 0.7
 
-
+## 29 Oct 2025
+- Organised directory
+- Re-ran MAFFT locally
+- MAFFT usage
+  - "/opt/anaconda3/envs/project_2025_py313/bin/mafft"  --localpair  --maxiterate 16 --reorder "/Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/raw/espy3-50.fasta" > "/Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/espy3-50.mafft.fasta"
+  - I selected Fasta format - Sorted
+  - I chose L-INS-i strategy as recommended in the MAFFT manual for alligning <200 sequences
