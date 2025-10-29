@@ -4,11 +4,9 @@
 
 ### Housekeeping
 - [ ] Repeat previous steps locally
-- [ ] Make environment/setup file (and update when needed)
 - [ ] Upload and annotate all files produced so far
 
 ### Project Work
-- [ ] Align 50% identity uniprot homologues with MAFFT
 - [ ] Manually clean MSA - remove rows with gaps and remove leader regions
 - [ ] Retreive pfam homologues (10k sequences)
 - [ ] Use uniprot MSA as seed for pfam homologue alignment (minimum pairwise identity 60%)
@@ -27,4 +25,10 @@
   - Named `~.trimal_18del` because I made two files with the same name. One was the trimal output with bad parameters.
   - trimAL parameters: 0.7 0.7
 
-
+## 29 Oct 2025
+- Organised directory
+- Re-ran MAFFT locally
+- MAFFT usage
+  - "/opt/anaconda3/envs/project_2025_py313/bin/mafft"  --localpair  --maxiterate 16 --reorder "/Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/raw/espy3-50.fasta" > "/Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/espy3-50.mafft.fasta"
+  - I selected Fasta format - Sorted
+  - I chose L-INS-i strategy as recommended in the MAFFT manual for alligning <200 sequences
