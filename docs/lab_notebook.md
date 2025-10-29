@@ -4,11 +4,9 @@
 
 ### Housekeeping
 - [ ] Repeat previous steps locally
-- [ ] Make environment/setup file (and update when needed)
 - [ ] Upload and annotate all files produced so far
 
 ### Project Work
-- [ ] Align 50% identity uniprot homologues with MAFFT
 - [ ] Manually clean MSA - remove rows with gaps and remove leader regions
 - [ ] Retreive pfam homologues (10k sequences)
 - [ ] Use uniprot MSA as seed for pfam homologue alignment (minimum pairwise identity 60%)
