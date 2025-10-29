@@ -9,7 +9,8 @@
 ### Project Work
 - [x] Manually clean MSA - remove rows with gaps and remove leader regions
 - [x] Retreive pfam homologues (10k sequences)
-- [ ] Update tools folder and add readmes
+- [ ] Update environment.md with trimAL
+- [ ] Add readme's to trimAL outputs
 - [ ] Figure out how to format .md files
 - [ ] Use uniprot MSA as seed for pfam homologue alignment (minimum pairwise identity 60%)
 - [ ] 
