@@ -3,12 +3,13 @@
 ## TODO
 
 ### Housekeeping
-- [ ] Repeat previous steps locally
-- [ ] Upload and annotate all files produced so far
+- [x] Repeat previous steps locally
+- [x] Upload and annotate all files produced so far
 
 ### Project Work
-- [ ] Manually clean MSA - remove rows with gaps and remove leader regions
-- [ ] Retreive pfam homologues (10k sequences)
+- [x] Manually clean MSA - remove rows with gaps and remove leader regions
+- [x] Retreive pfam homologues (10k sequences)
+- [ ] Figure out how to format .md files
 - [ ] Use uniprot MSA as seed for pfam homologue alignment (minimum pairwise identity 60%)
 - [ ] 
 
