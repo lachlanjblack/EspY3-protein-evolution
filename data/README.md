@@ -1,4 +1,4 @@
-# Data folder
+# Data
 
 This folder contains all the data I have used for the project.
 
