@@ -1,0 +1,15 @@
+RAxML-NG v1.2.2 (c) 2024 The Exelixis Lab
+
+This is a ready-to-use binary which should be compatible with most 
+recent macOS systems (tested with macOS v11.7.6).
+
+This is so-called universal binary which runs on both Intel x86 CPUs and Apple silicon (M1/M2/M3).
+
+Please type 
+
+  ./raxml-ng -h
+
+to see available commands and usage examples.
+
+For further info and updates, please visit: https://github.com/amkozlov/raxml-ng
+
