@@ -1,22 +1,5 @@
 # Project log
 
-## TODO
-
-### Housekeeping
-- [x] Repeat previous steps locally
-- [x] Upload and annotate all files produced so far
-
-### Project Work
-- [x] Manually clean MSA - remove rows with gaps and remove leader regions
-- [x] Retreive pfam homologues (10k sequences)
-- [ ] Update environment.md with trimAL
-- [ ] Add readme's to trimAL outputs
-- [ ] Figure out how to format .md files
-- [ ] Use uniprot MSA as seed for pfam homologue alignment (minimum pairwise identity 60%)
-- [ ] 
-
-
-
 ## Initial Setup - 27 Oct 2025
 - Created GitHub repository and folders
 - Installed git and basic command-line tools
