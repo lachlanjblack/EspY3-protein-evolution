@@ -1,0 +1,177 @@
+
+RAxML-NG v. 1.2.2 released on 30.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 02-Nov-2025 12:06:16 as follows:
+
+raxml-ng --search --msa ../../data/cleaned/trimal/espy3-50.mafft.r07s08.trim.fasta --model Blosum62+G4 --prefix ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree --threads auto
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1762085176
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: ../../data/cleaned/trimal/espy3-50.mafft.r07s08.trim.fasta
+[00:00:00] Loaded alignment with 44 taxa and 524 sites
+
+WARNING: Sequences tr|A0A0D8WGH1|A0A0D8WGH1_ECOLX/1-523 and tr|A0A377DGX1|A0A377DGX1_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0A1Q5ZEH3|A0A1Q5ZEH3_ECOLX/1-523 and tr|A0A3R8KSB7|A0A3R8KSB7_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0AAW5Z1M4|A0AAW5Z1M4_ECOLX/1-523 and tr|A0AAW6W494|A0AAW6W494_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0A0X5K2I6|A0A0X5K2I6_ECOLX/1-523 and tr|W1X2U4|W1X2U4_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0A0X5K2I6|A0A0X5K2I6_ECOLX/1-523 and tr|A0A376VQ42|A0A376VQ42_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0A0X5K2I6|A0A0X5K2I6_ECOLX/1-523 and tr|W1XNK9|W1XNK9_9ZZZZ/1-523 are exactly identical!
+WARNING: Sequences tr|A0A0X5K2I6|A0A0X5K2I6_ECOLX/1-523 and tr|A0A6D1PLN0|A0A6D1PLN0_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0A0X5K2I6|A0A0X5K2I6_ECOLX/1-523 and tr|A0A8S7N1T2|A0A8S7N1T2_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|A0A0X5K2I6|A0A0X5K2I6_ECOLX/1-523 and tr|A0AAW5ZB89|A0AAW5ZB89_ECOLX/1-523 are exactly identical!
+WARNING: Sequences tr|W1YEN7|W1YEN7_9ZZZZ/1-523 and tr|A0A0H3PZQ4|A0A0H3PZQ4_ECO5C/1-523 are exactly identical!
+WARNING: Sequences tr|A0A767FIQ4|A0A767FIQ4_ECOLX/1-520 and tr|A0A793GC28|A0A793GC28_ECOLX/1-520 are exactly identical!
+WARNING: Sequences tr|A0A767FIQ4|A0A767FIQ4_ECOLX/1-520 and tr|A0A9P2PS47|A0A9P2PS47_ECOLX/1-520 are exactly identical!
+WARNING: Sequences tr|A0A767FIQ4|A0A767FIQ4_ECOLX/1-520 and tr|A0A9Q6ZFC8|A0A9Q6ZFC8_ECO57/1-520 are exactly identical!
+WARNING: Sequences tr|Q8XE85|Q8XE85_ECO57/1-518 and tr|A0A793GH32|A0A793GH32_ECOLX/1-518 are exactly identical!
+WARNING: Duplicate sequences found: 14
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 185 patterns
+
+Partition 0: noname
+Model: BLOSUM62+G4m
+Alignment sites / patterns: 524 / 185
+Gaps: 0.61 %
+Invariant sites: 71.37 %
+
+
+NOTE: Binary MSA file created: ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.rba
+
+Parallelization scheme autoconfig: 8 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 44 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 44 taxa
+Parallel parsimony with 8 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 185 / 14800
+[00:00:00] Data distribution: max. searches per worker: 3
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -8122.682599] Initial branch length optimization
+[00:00:00 -6949.356372] Model parameter optimization (eps = 10.000000)
+[00:00:00 -6395.480220] AUTODETECT spr round 1 (radius: 5)
+[00:00:01 -4152.043801] AUTODETECT spr round 2 (radius: 10)
+[00:00:03 -3405.691629] AUTODETECT spr round 3 (radius: 15)
+[00:00:04 -3404.798195] AUTODETECT spr round 4 (radius: 20)
+[00:00:04 -3403.883119] AUTODETECT spr round 5 (radius: 25)
+[00:00:04 -3402.000191] SPR radius for FAST iterations: 25 (autodetect)
+[00:00:04 -3402.000191] Model parameter optimization (eps = 3.000000)
+[00:00:05 -3256.420902] FAST spr round 1 (radius: 25)
+[00:00:06 -3202.580729] FAST spr round 2 (radius: 25)
+[00:00:07 -3202.580720] Model parameter optimization (eps = 1.000000)
+[00:00:07 -3202.517019] SLOW spr round 1 (radius: 5)
+[00:00:10 -3202.045651] SLOW spr round 2 (radius: 10)
+[00:00:12 -3202.045568] SLOW spr round 3 (radius: 15)
+[00:00:13 -3202.045568] SLOW spr round 4 (radius: 20)
+[00:00:14] [worker #2] ML tree search #3, logLikelihood: -3202.045417
+[00:00:14 -3202.045568] SLOW spr round 5 (radius: 25)
+[00:00:14] [worker #4] ML tree search #5, logLikelihood: -3207.155663
+[00:00:14 -3202.045568] Model parameter optimization (eps = 0.100000)
+
+[00:00:14] [worker #0] ML tree search #1, logLikelihood: -3202.045419
+
+[00:00:14 -7818.380660] Initial branch length optimization
+[00:00:14] [worker #7] ML tree search #8, logLikelihood: -3202.047978
+[00:00:14 -6641.492603] Model parameter optimization (eps = 10.000000)
+[00:00:15 -6131.472300] AUTODETECT spr round 1 (radius: 5)
+[00:00:15] [worker #6] ML tree search #7, logLikelihood: -3203.258592
+[00:00:16] [worker #5] ML tree search #6, logLikelihood: -3200.654328
+[00:00:16] [worker #1] ML tree search #2, logLikelihood: -3201.273956
+[00:00:16 -3907.993547] AUTODETECT spr round 2 (radius: 10)
+[00:00:16] [worker #3] ML tree search #4, logLikelihood: -3201.143356
+[00:00:18 -3414.741249] AUTODETECT spr round 3 (radius: 15)
+[00:00:19 -3412.693466] AUTODETECT spr round 4 (radius: 20)
+[00:00:19 -3409.732941] AUTODETECT spr round 5 (radius: 25)
+[00:00:19 -3400.292674] SPR radius for FAST iterations: 25 (autodetect)
+[00:00:19 -3400.292674] Model parameter optimization (eps = 3.000000)
+[00:00:19 -3265.191665] FAST spr round 1 (radius: 25)
+[00:00:21 -3202.208667] FAST spr round 2 (radius: 25)
+[00:00:22 -3202.208608] Model parameter optimization (eps = 1.000000)
+[00:00:22 -3202.049015] SLOW spr round 1 (radius: 5)
+[00:00:24] [worker #4] ML tree search #13, logLikelihood: -3203.258912
+[00:00:24 -3202.048369] SLOW spr round 2 (radius: 10)
+[00:00:24] [worker #2] ML tree search #11, logLikelihood: -3202.047982
+[00:00:26] [worker #7] ML tree search #16, logLikelihood: -3202.047980
+[00:00:26] [worker #5] ML tree search #14, logLikelihood: -3204.197293
+[00:00:26] [worker #6] ML tree search #15, logLikelihood: -3200.654334
+[00:00:27 -3202.048369] SLOW spr round 3 (radius: 15)
+[00:00:28 -3202.048369] SLOW spr round 4 (radius: 20)
+[00:00:28] [worker #3] ML tree search #12, logLikelihood: -3200.654366
+[00:00:28 -3202.048369] SLOW spr round 5 (radius: 25)
+[00:00:28 -3202.048369] Model parameter optimization (eps = 0.100000)
+
+[00:00:29] [worker #0] ML tree search #9, logLikelihood: -3202.048102
+
+[00:00:29 -4434.663881] Initial branch length optimization
+[00:00:29 -3223.902327] Model parameter optimization (eps = 10.000000)
+[00:00:29 -3210.381495] AUTODETECT spr round 1 (radius: 5)
+[00:00:30 -3207.627538] AUTODETECT spr round 2 (radius: 10)
+[00:00:30] [worker #1] ML tree search #10, logLikelihood: -3202.047982
+[00:00:31 -3207.625926] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:31 -3207.625926] Model parameter optimization (eps = 3.000000)
+[00:00:31 -3207.625843] FAST spr round 1 (radius: 5)
+[00:00:32 -3207.625738] Model parameter optimization (eps = 1.000000)
+[00:00:32 -3207.625738] SLOW spr round 1 (radius: 5)
+[00:00:34 -3202.060440] SLOW spr round 2 (radius: 10)
+[00:00:36] [worker #2] ML tree search #19, logLikelihood: -3202.047985
+[00:00:36 -3202.060404] SLOW spr round 3 (radius: 15)
+[00:00:38 -3202.060404] SLOW spr round 4 (radius: 20)
+[00:00:39 -3202.060404] SLOW spr round 5 (radius: 25)
+[00:00:39 -3202.060404] Model parameter optimization (eps = 0.100000)
+
+[00:00:39] [worker #0] ML tree search #17, logLikelihood: -3202.045463
+
+[00:00:39] [worker #3] ML tree search #20, logLikelihood: -3202.047983
+[00:00:41] [worker #1] ML tree search #18, logLikelihood: -3202.047979
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.323563 (ML),  weights&rates: (0.250000,0.007400) (0.250000,0.122906) (0.250000,0.633333) (0.250000,3.236361) 
+   Base frequencies (model): 0.074000 0.052000 0.045000 0.054000 0.025000 0.034000 0.054000 0.074000 0.026000 0.068000 0.099000 0.058000 0.025000 0.047000 0.039000 0.057000 0.051000 0.013000 0.032000 0.073000 
+   Substitution rates (model): 0.735790 0.485391 0.543162 1.459995 1.199706 1.170949 1.955884 0.716241 0.605899 0.800017 1.295201 1.253758 0.492965 1.173276 4.325093 1.729178 0.465839 0.718207 2.187775 1.297447 0.500964 0.227827 3.020834 1.360574 0.418763 1.456141 0.232036 0.622712 5.411115 0.983693 0.371645 0.448134 1.122783 0.914666 0.426382 0.720517 0.438388 3.180100 0.397359 1.839216 1.240489 1.355872 2.414501 0.283017 0.211888 1.593137 0.648441 0.354861 0.494887 2.904102 1.898174 0.191482 0.538223 0.312859 0.240837 1.190946 3.761625 0.798473 0.778143 0.418556 0.218132 1.032448 0.222622 0.281731 0.730628 1.582754 0.934188 0.145345 0.261422 0.258129 0.329802 0.140749 0.418203 0.354058 0.774894 0.831843 0.285079 0.767689 0.441337 0.356008 1.197188 1.119831 0.527664 0.470238 1.116352 5.528919 0.609846 2.435341 0.236202 0.580737 3.945278 2.494896 0.144357 0.858571 1.934871 1.277480 0.758654 0.958990 0.530786 0.423580 1.626891 0.186848 0.372625 2.802427 0.555415 0.291409 0.926564 1.769893 1.071097 0.407636 0.596719 0.524254 0.539859 0.189296 0.217721 0.752042 0.459436 0.368166 0.504087 1.509326 0.641436 0.508359 0.308056 0.253341 0.252718 0.348072 1.022507 0.984312 0.714534 0.527007 1.117030 0.585407 0.301249 4.218954 0.201556 3.890964 0.406194 3.364798 1.517359 0.388355 0.357544 1.179091 0.341986 0.674617 8.311839 0.445570 6.030559 2.064840 0.374556 0.352969 0.915260 0.691475 0.811246 2.231406 1.073061 0.266925 1.047383 1.752166 1.303875 0.332243 0.717993 0.498138 1.773855 0.454124 0.918723 1.488548 0.888101 0.951682 2.575851 0.233598 0.540028 0.488206 2.074325 6.747260 0.838120 1.169130 1.005452 0.252215 0.369405 0.496908 5.151556 0.387926 0.796752 0.561925 0.513128 0.801010 2.253074 4.054419 0.266509 1.000000 
+
+
+Final LogLikelihood: -3200.654328
+
+AIC score: 6573.308656 / AICc score: 6607.551219 / BIC score: 6939.796941
+Free parameters (model + branch lengths): 86
+
+WARNING: Best ML tree contains 18 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTreeCollapsed
+Best ML tree saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTree
+All ML trees saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.mlTrees
+Optimized model saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestModel
+
+Execution log saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.log
+
+Analysis started: 02-Nov-2025 12:06:16 / finished: 02-Nov-2025 12:06:58
+
+Elapsed time: 41.485 seconds
+

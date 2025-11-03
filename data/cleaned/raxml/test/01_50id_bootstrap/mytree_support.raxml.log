@@ -1,0 +1,34 @@
+
+RAxML-NG v. 1.2.2 released on 30.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 02-Nov-2025 12:15:43 as follows:
+
+raxml-ng --support --tree ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTree --bs-trees ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_bs.raxml.bootstraps --prefix ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_support
+
+Analysis options:
+  run mode: Compute bipartition support (Felsenstein Bootstrap)
+  start tree(s): user
+  random seed: 1762085743
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+Reading reference tree from file: ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTree
+Reference tree size: 44
+
+Reading bootstrap trees from file: ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_bs.raxml.bootstraps
+Loaded 100 trees with 44 taxa.
+
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree_support.raxml.support
+
+Execution log saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree_support.raxml.log
+
+Analysis started: 02-Nov-2025 12:15:43 / finished: 02-Nov-2025 12:15:43
+
+Elapsed time: 0.011 seconds
+
