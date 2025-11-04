@@ -7,16 +7,18 @@ Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!
 
 System: Apple M2, 8 cores, 8 GB RAM
 
-RAxML-NG was called at 02-Nov-2025 12:15:43 as follows:
+RAxML-NG was called at 03-Nov-2025 19:00:33 as follows:
 
-raxml-ng --support --tree ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTree --bs-trees ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_bs.raxml.bootstraps --prefix ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_support
+raxml-ng --support --tree ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTree --bs-trees ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_bs.raxml.bootstraps --prefix ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree_support --redo
 
 Analysis options:
   run mode: Compute bipartition support (Felsenstein Bootstrap)
   start tree(s): user
-  random seed: 1762085743
+  random seed: 1762196433
   SIMD kernels: SSE3
   parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
 
 Reading reference tree from file: ../../data/cleaned/raxml/test/01_50id_bootstrap/mytree.raxml.bestTree
 Reference tree size: 44
@@ -28,7 +30,7 @@ Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /Users/la
 
 Execution log saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/data/cleaned/raxml/test/01_50id_bootstrap/mytree_support.raxml.log
 
-Analysis started: 02-Nov-2025 12:15:43 / finished: 02-Nov-2025 12:15:43
+Analysis started: 03-Nov-2025 19:00:33 / finished: 03-Nov-2025 19:00:33
 
-Elapsed time: 0.011 seconds
+Elapsed time: 0.018 seconds
 
