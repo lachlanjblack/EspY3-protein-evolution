@@ -1,0 +1,34 @@
+
+RAxML-NG v. 1.2.2 released on 30.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 14-Nov-2025 10:27:28 as follows:
+
+raxml-ng --support --tree ../../new_tree_wd/raxml/99_id/new_tree99.raxml.bestTree --bs-trees ../../new_tree_wd/raxml/99_id/new_tree99_bs.raxml.bootstraps --prefix ../../new_tree_wd/raxml/new_tree99_support
+
+Analysis options:
+  run mode: Compute bipartition support (Felsenstein Bootstrap)
+  start tree(s): user
+  random seed: 1763116048
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+Reading reference tree from file: ../../new_tree_wd/raxml/99_id/new_tree99.raxml.bestTree
+Reference tree size: 196
+
+Reading bootstrap trees from file: ../../new_tree_wd/raxml/99_id/new_tree99_bs.raxml.bootstraps
+Loaded 100 trees with 196 taxa.
+
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/new_tree_wd/raxml/new_tree99_support.raxml.support
+
+Execution log saved to: /Users/lachlanblack/Documents/GitHub/EspY3-protein-evolution/new_tree_wd/raxml/new_tree99_support.raxml.log
+
+Analysis started: 14-Nov-2025 10:27:28 / finished: 14-Nov-2025 10:27:28
+
+Elapsed time: 0.023 seconds
+
