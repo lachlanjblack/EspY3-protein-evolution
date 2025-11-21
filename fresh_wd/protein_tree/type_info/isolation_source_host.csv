@@ -1,0 +1,93 @@
+protein_acc,nucleotide_acc,species,strain,host,isolation_source
+AUX62840.1,CP021726.1,Escherichia coli,Combat11I9,Homo sapiens,urine
+AXO85837.1,CP031609.1,Escherichia coli,N3,Homo sapiens,Rectal swab
+EEU1436664.1,AARIEB010000010.1,Escherichia coli,712542,Homo sapiens,
+EEV6173070.1,AARMPV010000001.1,Escherichia coli,FSIS11814928,missing,animal-cattle-dairy cow
+EEW3329860.1,AAROSG010000020.1,Escherichia albertii,PNUSAE019256,,
+EEW4813662.1,AARPCQ010000010.1,Escherichia coli,616987,,
+EEW8726975.1,AARQEU010000009.1,Escherichia coli,604945,Homo sapiens,
+EEW8731021.1,AARQFB010000008.1,Escherichia coli,FSIS11813946,,animal-swine-sow
+EFA4797329.1,AASAWV010000005.1,Escherichia coli,704748,Homo sapiens,missing
+GG749165.1,GG749165.1,Escherichia coli B185,B185,,missing
+EFH3871650.1,AASVSH010000006.1,Escherichia coli,CVM N19EC0013,,Pork Chop
+EFI6377046.1,AASZMP010000008.1,Escherichia coli,CFSAN100954,,Cattle Manure
+EFJ1935778.1,AATBBW010000015.1,Escherichia coli,PNUSAE049211,,water
+EFM6015040.1,AATLJD010000005.1,Escherichia coli,ECOL-19-VL-WA-IL-0033,,Feces (Canis lupus familiaris)
+EFP6907317.1,AATVZN010000018.1,Shigella dysenteriae,939243,Homo sapiens,
+EFW0658533.1,AAURYA010000002.1,Shigella dysenteriae,808276,Homo sapiens,
+EFW7504363.1,AAUUHH010000004.1,Shigella sonnei,PNUSAE024963,,
+EGD7149000.1,AAVSJF010000001.1,Shigella dysenteriae,308724,Homo sapiens,
+EGD7494482.1,AAVSMB010000031.1,Shigella dysenteriae,444124,Homo sapiens,
+EGE6595580.1,AAVVJM010000010.1,Escherichia coli,H103780083,Homo sapiens,
+EGI3990927.1,AAWHZC010000006.1,Escherichia coli,NC_CPS35,,Poultry Soil
+EGK9459686.1,AAWQPW010000007.1,Escherichia coli,PNUSAE062205,,water
+EGM7792188.1,AAWWXR010000012.1,Escherichia coli,905471,,other
+EGP 4638213.10,AAXGPH010000007.1,Escherichia coli,20MD09GT10-EC,,ground turkey
+EHK7383385.1,ABACTA010000004.1,Escherichia coli,PNUSAE060132,human,stool
+EHR8279536.1,ABBBNA010000002.1,Escherichia coli,15.141,Anas acuta,northern pintails
+EHT1093178.1,ABBFWM010000002.1,Escherichia coli,21SC06GT05-EC,,ground turkey
+EIH4672592.1,ABDBMH010000019.1,Escherichia coli,NC_STEC97,,Chicken Fecal House 4 - Middle
+EII3506183.1,ABDEHE010000002.1,Escherichia coli,ECOL-20-VL-SD-MN-0007,,ear
+EJG6373082.1,ABGJNV010000006.1,Escherichia coli,22TX04GT01-EC,,ground turkey
+EJN2315801.1,ABHGOU010000006.1,Escherichia coli,1665741,Homo sapiens,
+EJV4778219.1,ABIITN010000003.1,Shigella dysenteriae,1706688,Homo sapiens,
+EKY4422489.1,ABLQNX010000017.1,Escherichia coli,23IA03GT01-EC,,ground turkey
+ELD0454108.1,ABMGRL010000002.1,Escherichia coli,PS02817A,,Lettuce
+ELT8056872.1,ABONHV010000007.1,Escherichia coli,22OR11PC06-EC,,Pork Chops
+EMB7580293.1,ABPOQB010000003.1,Escherichia coli,NJDA-WGS-281,pigeon,feces
+EMC8919671.1,ABPSOQ010000010.1,Shigella sonnei,PNUSAE164273,,
+ENB6026857.1,ABSKDK010000016.1,Shigella dysenteriae,1317080,Homo sapiens,
+ENC4016066.1,ABSMRZ010000001.1,Shigella dysenteriae,1249226,Homo sapiens,
+ENJ2135865.1,ABTJRZ010000003.1,Escherichia coli,24CA04PC02UCD-EC,,ground pork
+ENQ0474387.1,ABUGPH010000006.1,Escherichia coli,FSIS12430492,,Animal-Sheep-Lamb (cecal)
+EOL9381336.1,ABXUAW010000001.1,Escherichia coli,FSIS12534971,,Animal-Swine-Sow (cecal)
+EOS9672554.1,ABXZSQ010000001.1,Escherichia coli,ECOL-24-VL-WA-VA-0007,Canis lupus familiaris,urine
+EOV3886154.1,ABYIAB010000003.1,Shigella sonnei,1709613,Homo sapiens,
+EOY4627736.1,ABYTHC010000015.1,Escherichia coli,2025GO-0121,Homo sapiens,
+EOZ4159303.1,ABYWQO010000005.1,Escherichia coli,0.0694,Avian,chicken
+EPD1771162.1,ABZKBW010000005.1,Escherichia coli,1761497,Homo sapiens,
+EPF4174552.1,ABZSFJ010000003.1,Escherichia albertii,PNUSAE212833,,stool
+EPF4820813.1,ABZSLW010000002.1,Escherichia albertii,PNUSAE212831,,stool
+EPM3633048.1,ACAFJZ010000022.1,Escherichia coli,25KS06CL01-EC,,Chicken Liver
+HAH9781167.1,DABDCY010000006.1,Escherichia coli,,Homo sapiens,feces
+HAN7998722.1,DABVKX010000010.1,Escherichia coli,,,Retail Poultry
+HAX4785037.1,DADHLG010000006.1,Escherichia coli,KIYOTAKE-102,,
+HBB1443132.1,DADUDU010000005.1,Escherichia coli,,,
+HBB1465758.1,DADUEA010000023.1,Escherichia coli,,,
+HBC9809122.1,DAEAKW010000009.1,Escherichia coli,,equine,equine
+HBE6260377.1,DAEGCK010000004.1,Escherichia coli,,chicken,Caecum
+HBE6604389.1,DAEGFG010000004.1,Escherichia coli,110704014,Bos taurus,
+HBJ0688907.1,DAEWGM010000007.1,Escherichia coli,,porcine,feces
+HBK9204701.1,DAFDKI010000004.1,Escherichia coli,,Homo sapiens,feces
+HCB9557601.1,DAHBYO010000009.1,Escherichia coli,244,Homo sapiens,feces
+HCP4598602.1,DAJMEK010000006.1,Escherichia coli,69,Homo sapiens,
+HCP5163438.1,DAJMIW010000029.1,Escherichia coli,,Homo sapiens,stool
+HDT0929104.1,DAOYTC010000008.1,Escherichia coli,JBEGAAC-19-0025,Homo sapiens,vaginal secretion
+HEB1223389.1,DAQCRY010000036.1,Escherichia albertii,Sample 126,,Poultry
+HEB1528362.1,DAQCUA010000005.1,Escherichia albertii,Sample 32,Homo sapiens,
+HFV8724395.1,DBAHSZ010000016.1,Escherichia coli,E-MBS8039A,Chicken [NCBITaxon:9031],Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]
+HGW4900886.1,DBFRCJ010000027.1,Escherichia coli,FIJ0685,Homo sapiens,blood
+MBA8428019.1,JABXUK010000001.1,Escherichia coli,,,Pooled pig fecal samples collected from floor of farm
+MBB8027460.1,AATNBS020000031.1,Escherichia coli,75.0269,Odocoileus virginianus,
+MBB9061957.1,AASKLE020000003.1,Escherichia coli,88.1576,Sus scrofa domesticus,
+MBB9272976.1,AASHUQ020000008.1,Escherichia coli,98.0001,Sus scrofa domesticus,
+MBC1087149.1,AASISA020000008.1,Escherichia coli,80.0333,Bos taurus,
+MBY7176877.1,JAINAY010000011.1,Escherichia coli,C10-8,Gallus gallus,Fecal material [ENVO:00002003]
+MCE7719977.1,JAEHKK010000001.1,Escherichia albertii,MVC328,Canis lupus familiaris,Trach tube swab
+MCI7296858.1,JALEWT010000006.1,Shigella dysenteriae,,Sus scrofa domesticus,feces
+MCQ8939922.1,JAMXNJ010000016.1,Escherichia albertii,153_1_TBG_A,migratory bird,feces
+MCV5860613.1,JAOVLC010000012.1,Escherichia coli,983,,pork meat
+MCZ8625746.1,JAQAPD010000034.1,Escherichia albertii,149,Homo sapiens,feces
+MCZ8639243.1,JAQAOI010000006.1,Escherichia albertii,128,Homo sapiens,feces
+MDY7944121.1,JAXKPV010000002.1,Escherichia coli,PE108,pig,gut
+MWN22048.1,WTMV01000001.1,Escherichia coli,10432wA7,,feces
+OYL32947.1,NQDV01000020.1,Shigella sonnei,ECPSTH03,Homo sapiens,sputum
+PAQ66758.1,MVPG01000003.1,Escherichia coli,6770,Homo sapiens,blood
+PHL26444.1,NXNV01000010.1,Escherichia coli,24_Esco_HA-NL,Homo sapiens,rectal swab
+QZY67774.1,CP082355.1,Escherichia coli,VCSW5,,Soil/drain sediment
+SPX06188.1,UASC01000001.1,Escherichia coli,NCTC9777,,
+SQP90993.1,UCZG01000003.1,Escherichia coli,VREC0307,,
+STH86688.1,UGBX01000001.1,Escherichia coli,NCTC9050,,
+UMS18956.1,CP028745.1,Escherichia coli,A30,Papio cynocephalus,feces
+WDC28796.1,CP117643.1,Escherichia albertii,BIA_17,Grus grus,
+WMV65795.1,CP130156.1,Escherichia albertii,EA04,poultry,spleen
