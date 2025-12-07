@@ -2,92 +2,92 @@ tip_id, species,iso_source
 AUX62840.1,E. coli,Human
 AXO85837.1,E. coli,Human
 EEU1436664.1,E. coli,Human
-EEV6173070.1,E. coli,Animal
+EEV6173070.1,E. coli,Bovine
 EEW3329860.1,E. albertii,Unknown
 EEW4813662.1,E. coli,Unknown
 EEW8726975.1,E. coli,Unknown
-EEW8731021.1,E. coli,Animal
+EEW8731021.1,E. coli,Porcine
 EFA4797329.1,E. coli,Human
 EFF06704.1,E. coli,Unknown
-EFH3871650.1,E. coli,Food
-EFI6377046.1,E. coli,Animal
-EFJ1935778.1,E. coli,Environmental
-EFM6015040.1,E. coli,Animal
+EFH3871650.1,E. coli,Porcine
+EFI6377046.1,E. coli,Bovine
+EFJ1935778.1,E. coli,Unknown
+EFM6015040.1,E. coli,Canine
 EFP6907317.1,Shigella,Human
 EFW0658533.1,Shigella,Human
 EFW7504363.1,Shigella,Unknown
 EGD7149000.1,Shigella,Human
 EGD7494482.1,Shigella,Human
 EGE6595580.1,E. coli,Human
-EGI3990927.1,E. coli,Animal
-EGK9459686.1,E. coli,Environmental
+EGI3990927.1,E. coli,Avian
+EGK9459686.1,E. coli,Unknown
 EGM7792188.1,E. coli,Unknown
-EGP4638213.1,E. coli,Food
+EGP4638213.1,E. coli,Avian
 EHK7383385.1,E. coli,Human
-EHR8279536.1,E. coli,Animal
-EHT1093178.1,E. coli,Food
-EIH4672592.1,E. coli,Animal
-EII3506183.1,E. coli,Human
-EJG6373082.1,E. coli,Food
+EHR8279536.1,E. coli,Avian
+EHT1093178.1,E. coli,Avian
+EIH4672592.1,E. coli,Avian
+EII3506183.1,E. coli,Canine
+EJG6373082.1,E. coli,Avian
 EJN2315801.1,E. coli,Human
 EJV4778219.1,Shigella,Human
-EKY4422489.1,E. coli,Food
-ELD0454108.1,E. coli,Food
-ELT8056872.1,E. coli,Food
-EMB7580293.1,E. coli,Animal
+EKY4422489.1,E. coli,Avian
+ELD0454108.1,E. coli,Unknown
+ELT8056872.1,E. coli,Porcine
+EMB7580293.1,E. coli,Avian
 EMC8919671.1,Shigella,Unknown
 ENB6026857.1,Shigella,Human
 ENC4016066.1,Shigella,Human
-ENJ2135865.1,E. coli,Food
-ENQ0474387.1,E. coli,Animal
-EOL9381336.1,E. coli,Animal
-EOS9672554.1,E. coli,Animal
+ENJ2135865.1,E. coli,Porcine
+ENQ0474387.1,E. coli,Other
+EOL9381336.1,E. coli,Porcine
+EOS9672554.1,E. coli,Canine
 EOV3886154.1,Shigella,Human
 EOY4627736.1,E. coli,Human
-EOZ4159303.1,E. coli,Animal
+EOZ4159303.1,E. coli,Avian
 EPD1771162.1,E. coli,Human
 EPF4174552.1,E. albertii,Human
 EPF4820813.1,E. albertii,Human
-EPM3633048.1,E. coli,Food
+EPM3633048.1,E. coli,Avian
 HAH9781167.1,E. coli,Human
-HAN7998722.1,E. coli,Food
-HAX4785037.1,E. coli,Environmental
+HAN7998722.1,E. coli,Avian
+HAX4785037.1,E. coli,Unknown
 HBB1443132.1,E. coli,Unknown
 HBB1465758.1,E. coli,Unknown
-HBC9809122.1,E. coli,Animal
-HBE6260377.1,E. coli,Animal
-HBE6604389.1,E. coli,Animal
-HBJ0688907.1,E. coli,Animal
+HBC9809122.1,E. coli,Other
+HBE6260377.1,E. coli,Avian
+HBE6604389.1,E. coli,Bovine
+HBJ0688907.1,E. coli,Porcine
 HBK9204701.1,E. coli,Human
 HCB9557601.1,E. coli,Human
 HCP4598602.1,E. coli,Human
 HCP5163438.1,E. coli,Human
 HDT0929104.1,E. coli,Human
-HEB1223389.1,E. albertii,Animal
+HEB1223389.1,E. albertii,Avian
 HEB1528362.1,E. albertii,Human
-HFV8724395.1,E. coli,Animal
+HFV8724395.1,E. coli,Avian
 HGW4900886.1,E. coli,Human
-MBA8428019.1,E. coli,Animal
-MBB8027460.1,E. coli,Animal
-MBB9061957.1,E. coli,Animal
-MBB9272976.1,E. coli,Animal
-MBC1087149.1,E. coli,Animal
-MBY7176877.1,E. coli,Animal
-MCE7719977.1,E. albertii,Animal
-MCI7296858.1,Shigella,Animal
-MCQ8939922.1,E. albertii,Animal
-MCV5860613.1,E. coli,Food
+MBA8428019.1,E. coli,Porcine
+MBB8027460.1,E. coli,Other
+MBB9061957.1,E. coli,Porcine
+MBB9272976.1,E. coli,Porcine
+MBC1087149.1,E. coli,Bovine
+MBY7176877.1,E. coli,Avian
+MCE7719977.1,E. albertii,Canine
+MCI7296858.1,Shigella,Porcine
+MCQ8939922.1,E. albertii,Avian
+MCV5860613.1,E. coli,Porcine
 MCZ8625746.1,E. albertii,Human
 MCZ8639243.1,E. albertii,Human
-MDY7944121.1,E. coli,Animal
+MDY7944121.1,E. coli,Porcine
 MWN22048.1,E. coli,Unknown
 OYL32947.1,Shigella,Human
 PAQ66758.1,E. coli,Human
 PHL26444.1,E. coli,Human
-QZY67774.1,E. coli,Environmental
+QZY67774.1,E. coli,Unknown
 SPX06188.1,E. coli,Unknown
-SQP90993.1,E. coli,Animal
+SQP90993.1,E. coli,Porcine
 STH86688.1,E. coli,Unknown
-UMS18956.1,E. coli,Animal
-WDC28796.1,E. albertii,Animal
-WMV65795.1,E. albertii,Animal
+UMS18956.1,E. coli,Other
+WDC28796.1,E. albertii,Avian
+WMV65795.1,E. albertii,Avian
