@@ -1,2 +1,0 @@
-# RAxML-NG data output.
-
