@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        trimal/trimal.auto1.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            79
+  #sites:           510
+  #patterns:        475
+  Max. thread mem:  90 MB
+
+Output:
+  Log:           modeltestaa.log
+  Starting tree: modeltestaa.tree
+  Results:       modeltestaa.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   57
+  include model parameters:
+    Uniform:         false
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          8/8
+  RNG seed:         12345
+  subtree repeats:  disabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  FLU+G4             1     -7940.4823     16853.5326         0.0000    0.9965
+       2  FLU+I+G4           2     -7943.0298     16864.8621        11.3295    0.0035
+       3  JTT+G4             1     -7977.1885     16926.9451        73.4125    0.0000
+       4  JTT-DCMUT+G4       1     -7982.6979     16937.9639        84.4313    0.0000
+       5  JTT+I+G4           2     -7980.0076     16938.8177        85.2851    0.0000
+       6  HIVW+G4            1     -7988.3705     16949.3091        95.7765    0.0000
+       7  JTT-DCMUT+I+G4     2     -7985.5293     16949.8610        96.3284    0.0000
+       8  HIVW+I+G4          2     -7991.0158     16960.8341       107.3015    0.0000
+       9  HIVB+G4            1     -8005.2466     16983.0612       129.5286    0.0000
+      10  HIVB+I+G4          2     -8007.6232     16994.0489       140.5163    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              FLU+G4
+lnL:                -7940.4823
+Frequencies:        0.0471 0.0509 0.0742 0.0479 0.0250 0.0333 0.0546 0.0764 0.0200 0.0671 0.0715 0.0568 0.0182 0.0305 0.0507 0.0884 0.0743 0.0185 0.0315 0.0632
+Inv. sites prop:    -
+Gamma shape:        0.6645
+Score:              16853.5326
+Weight:             0.9965
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9965
+Gamma-Inv:          0.0035
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0872
+Alpha:              0.6645
+Alpha-P.Inv:        0.6674
+P.Inv-Alpha:        0.0221
+Frequencies:        -
+
+Commands:
+  > phyml  -i trimal/trimal.auto1.fasta -d aa -m FLU -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s trimal/trimal.auto1.fasta -m PROTGAMMAFLU -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa trimal/trimal.auto1.fasta --model FLU+G4
+  > paup -s trimal/trimal.auto1.fasta
+  > iqtree -s trimal/trimal.auto1.fasta -m FLU+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  FLU+G4             1     -7940.4823     16192.9645         0.0000    0.9720
+       2  FLU+I+G4           2     -7943.0298     16200.0596         7.0951    0.0280
+       3  JTT+G4             1     -7977.1885     16266.3771        73.4125    0.0000
+       4  JTT+I+G4           2     -7980.0076     16274.0152        81.0507    0.0000
+       5  JTT-DCMUT+G4       1     -7982.6979     16277.3958        84.4313    0.0000
+       6  JTT-DCMUT+I+G4     2     -7985.5293     16285.0585        92.0940    0.0000
+       7  HIVW+G4            1     -7988.3705     16288.7410        95.7765    0.0000
+       8  HIVW+I+G4          2     -7991.0158     16296.0316       103.0671    0.0000
+       9  HIVB+G4            1     -8005.2466     16322.4931       129.5286    0.0000
+      10  HIVB+I+G4          2     -8007.6232     16329.2464       136.2819    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              FLU+G4
+lnL:                -7940.4823
+Frequencies:        0.0471 0.0509 0.0742 0.0479 0.0250 0.0333 0.0546 0.0764 0.0200 0.0671 0.0715 0.0568 0.0182 0.0305 0.0507 0.0884 0.0743 0.0185 0.0315 0.0632
+Inv. sites prop:    -
+Gamma shape:        0.6645
+Score:              16192.9645
+Weight:             0.9720
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9720
+Gamma-Inv:          0.0280
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0872
+Alpha:              0.6645
+Alpha-P.Inv:        0.6674
+P.Inv-Alpha:        0.0221
+Frequencies:        -
+
+Commands:
+  > phyml  -i trimal/trimal.auto1.fasta -d aa -m FLU -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s trimal/trimal.auto1.fasta -m PROTGAMMAFLU -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa trimal/trimal.auto1.fasta --model FLU+G4
+  > paup -s trimal/trimal.auto1.fasta
+  > iqtree -s trimal/trimal.auto1.fasta -m FLU+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  FLU+G4             1     -7940.4823     16330.9645         0.0000    0.9895
+       2  FLU+I+G4           2     -7943.0298     16340.0596         9.0951    0.0105
+       3  JTT+G4             1     -7977.1885     16404.3771        73.4125    0.0000
+       4  JTT+I+G4           2     -7980.0076     16414.0152        83.0507    0.0000
+       5  JTT-DCMUT+G4       1     -7982.6979     16415.3958        84.4313    0.0000
+       6  JTT-DCMUT+I+G4     2     -7985.5293     16425.0585        94.0940    0.0000
+       7  HIVW+G4            1     -7988.3705     16426.7410        95.7765    0.0000
+       8  HIVW+I+G4          2     -7991.0158     16436.0316       105.0671    0.0000
+       9  HIVB+G4            1     -8005.2466     16460.4931       129.5286    0.0000
+      10  HIVB+I+G4          2     -8007.6232     16469.2464       138.2819    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              FLU+G4
+lnL:                -7940.4823
+Frequencies:        0.0471 0.0509 0.0742 0.0479 0.0250 0.0333 0.0546 0.0764 0.0200 0.0671 0.0715 0.0568 0.0182 0.0305 0.0507 0.0884 0.0743 0.0185 0.0315 0.0632
+Inv. sites prop:    -
+Gamma shape:        0.6645
+Score:              16330.9645
+Weight:             0.9895
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9895
+Gamma-Inv:          0.0105
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0872
+Alpha:              0.6645
+Alpha-P.Inv:        0.6674
+P.Inv-Alpha:        0.0221
+Frequencies:        -
+
+Commands:
+  > phyml  -i trimal/trimal.auto1.fasta -d aa -m FLU -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s trimal/trimal.auto1.fasta -m PROTGAMMAFLU -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa trimal/trimal.auto1.fasta --model FLU+G4
+  > paup -s trimal/trimal.auto1.fasta
+  > iqtree -s trimal/trimal.auto1.fasta -m FLU+G4
+Done
