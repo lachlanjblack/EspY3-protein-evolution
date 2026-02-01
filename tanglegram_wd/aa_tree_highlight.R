@@ -97,7 +97,8 @@ plotBreakLongEdges(
   n = 2, 
   show.tip.label = FALSE,
   main = "Amino Acid Tree",
-  no.margin = FALSE
+  no.margin = FALSE,
+  x.lim = c(0, 0.5)
 )
 
 # B. Add Highlighted Labels
@@ -108,7 +109,8 @@ tiplabels(
   frame = "rect",          
   cex = 0.7,               
   adj = 0,                 
-  offset = 0.005           
+  offset = 0.005,
+  xpd = TRUE
 )
 
 # C. Node Support (Top Right)
