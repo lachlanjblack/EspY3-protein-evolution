@@ -1,12 +1,9 @@
 # EspY3-protein-evolution
 
-** This is a mess. I plan to reorganise all my files into a logical order between now and the final submission**
-
-
-This repository contains data and analysis of the EHEC T3SS effector protein EspY3 evolution and structure-function relationships
+This repository contains data and analysis used in my thesis 'Phylogentic and structural analysis of the enterohaemmorhagic Escherichia coli type III secretion system effector EspY3'
 
 ## Contents
-- `data/` – raw and clustered sequences
+- `data/` – all the data 
 - `scripts/` – analysis scripts
 - `results/` – phylogenetic trees and summaries
 - `docs/` – notes, references, and progress updates
